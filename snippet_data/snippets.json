@@ -1622,6 +1622,10 @@
   ],
   "meta": {
     "specification": "http://jsonapi.org/format/",
-    "type": "snippetArray"
+    "type": "snippetArray",
+    "language": {
+      "short": "py",
+      "long": "Python"
+    }
   }
 }

@@ -53,7 +53,7 @@ const getCodeBlocks = str => {
     });
   }
   const replacer = new RegExp(
-    `\`\`\`${config.language}([\\s\\S]*?)\`\`\``,
+    `\`\`\`${config.language.short}([\\s\\S]*?)\`\`\``,
     'g',
   );
   results = results.map(v => v.replace(replacer, '$1').trim());
