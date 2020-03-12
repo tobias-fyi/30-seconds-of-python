@@ -5,10 +5,11 @@ tags: list,math,intermediate
 
 Creates a list of elements, grouped based on the position in the original lists.
 
-
 Use `max` combined with `list comprehension` to get the length of the longest list in the arguments. 
 Loop for `max_length` times grouping elements. 
 If lengths of `lists` vary, use `fill_value` (defaults to `None`). 
+
+[`zip()`](https://docs.python.org/3/library/functions.html#zip) and [`itertools.zip_longest()`](https://docs.python.org/3/library/itertools.html#itertools.zip_longest) provide similar functionality to this snippet.
 
 ```py
 def zip(*args, fill_value=None):
